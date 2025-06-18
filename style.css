@@ -43,7 +43,10 @@ nav {
 }
   
 #picture {
-    height: 60px;
+    position: absolute;
+    left: 140px;
+    bottom: -43px;
+    height: 164px;
 }
   
 nav ul {
@@ -66,34 +69,39 @@ nav li {
   
 .select-wrapper .material-icons {
     position: absolute;
-    left: 10px;
-    color: #999;
+    left: 990px;
+    top: 17px;
+    color: white;
+    font-size: 12pt;
     pointer-events: none;
 }
 #arrow{
     position: absolute;
-    left: 95px;
+    left: 1075px;
     color: #999;
     pointer-events: none;
 }
 .select-wrapper select {
-    padding: 5px 20px 5px 40px;
+    padding: 5px 20px 5px 35px;
     font-size: 1rem;
     border-radius: 3px;
-    border: 1px solid #999;
+    border: 1px solid #606060;
+    margin-left: 980px;
+    margin-top: 10px;
     background-color: transparent;
     color: white;
     appearance: none;
 }
+
 select:after{
     content: "\2B9F";
-
 }
 select option {
     color: black;
 }
   
 button {
+    margin-top: 10px;
     padding: 8px 16px;
     font-size: 0.9rem;
     color: white;
@@ -107,12 +115,13 @@ button {
     position: relative;
     z-index: 2;
     text-align: center;
-    font-size: 3rem;
-    margin-top: 15vh;
-    font-weight: bold;
-    max-width: 600px;
+    font-size: 3.5rem;
+    margin-top: 25vh;
+    font-weight:bolder;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     padding: 0 20px;
 }
   
@@ -122,29 +131,32 @@ button {
     color: white;
     text-align: center;
     max-width: 600px;
-    margin: 10px auto;
+    margin: 20px auto;
     font-weight: 400;
     padding: 0 20px;
 }
   
 .top h2 {
-    font-size: 1.5rem;
+    font-size: 16pt;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
   
 .top p {
-    font-size: 1.1rem;
-    margin-bottom: 30px;
+    font-size:  1rem;
+    margin-bottom: 20px;
 }
   
 .email-form {
     position: relative;
     z-index: 2;
-    max-width: 600px;
+    max-width: 550px;
     margin: 0 auto;
     display: flex;
     gap: 10px;
     padding: 0 20px;
     justify-content: center;
+    height: 55px;
 }
   
 .email-form input {
@@ -152,6 +164,7 @@ button {
     padding: 15px;
     font-size: 1rem;
     border: solid gray 1px;
+    color: rgba(79, 79, 79, 0.675);
     outline: none;
     border-radius: 3px 0 0 3px;
     background-color: transparent;
@@ -159,10 +172,153 @@ button {
   
 .email-form button {
     padding: 15px 25px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     background-color: #e50914;
     color: white;
     border: none;
+    height: 54px;
+    width: 200px;
+    margin-top: 0px;
     border-radius: 0 3px 3px 0;
     cursor: pointer;
+    font-weight: 800;
+    border-radius: 5px;
 }  
+
+.arch-divider {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  
+.arch-divider svg {
+    display: block;
+    width: 100%;
+    height: 25px;
+    transform: rotate(180deg);
+  }
+
+.color-swap{
+    height: 80px;
+    background: 
+        linear-gradient(to top, rgba(0, 0, 0)30%, rgb(6, 29, 78)100%);
+}
+
+.ad-plan{
+    display: flex;
+    min-height: 150px;
+    height: 150px;
+    background-color: black;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.ad-plan:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ad-plan .bubble:hover{
+    background:linear-gradient(to left, rgb(46, 18, 46), rgb(53, 45, 88));
+}
+
+.default-ltr-cache-k26662 {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: auto;
+    padding: 20px;
+    background:linear-gradient(to left, rgb(33, 13, 33), rgb(40, 40, 75));
+    width: 70%;
+    height: 80px;
+    border-radius: 10px;
+    transition: background 10.3s ease, transform 0.3s ease;
+}
+
+.words{
+    display: block;
+    align-items: normal;
+    color: white;
+    cursor: default;
+}
+.words h2{
+    padding: 0;
+    margin:0;
+}
+.words p {
+    padding: 0;
+    margin: 0;
+}
+.ad-plan #learn{
+    background-color: rgb(95, 90, 113);
+    height: 40px;
+    width: 135px;
+    margin-top: 0;
+    padding: 5px;
+    font-size: 14pt;
+    font-weight: 700;
+    margin-left: 400%;
+}
+
+.trendingSection {
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+}
+.trendingSection h2{
+    color: white;
+    margin-left: 12%;
+    font-size: 22pt;
+}
+
+.trendingRow {
+    margin-top: 15px;
+    background-color: black;
+    width: 75%;
+    height: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+}
+  
+.trendingRow::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+  
+.card {
+    flex: 0 0 auto;
+    width: 215px;
+    height: 280px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: #333;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+  
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.card:hover {
+    transform: scale(1.09);
+    cursor: pointer;
+}
+  
+.bottom{
+    height: 100px;
+    background-color: orange;
+}
