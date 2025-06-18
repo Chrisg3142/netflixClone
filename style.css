@@ -1,0 +1,88 @@
+.content {
+  background-color: 
+  padding: 100px 20px;
+}
+
+.content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.content p {
+  font-size: 1.25em;
+  margin: 10px 0;
+  text-align: center;
+  color: white;
+}
+
+img {
+  margin-top: 0%;
+  padding-top: 0;
+}
+
+.sign-in{
+  float: right;
+   background-color: red;
+   height: 40px;
+   width: 70px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10%;
+}
+
+.email-form{
+    text-align: center; 
+            
+}
+
+.email-form button{ 
+   background-color: red;
+   height: 40px;
+   width: 70px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10%;
+  
+}
+
+.email-form input {
+  color: white;
+  background-color: #333;
+
+}
+
+body{
+    background-color: black;
+}
+
+.ad{
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: turquoise;
+    margin-top: 10em;    
+    justify-content: center;
+}
+
+.learn-more{
+  background-color: red;
+   height: 40px;
+   width: 70px;
+   font-weight: 600;
+   color: white;
+   border: none;
+   border-radius: 10%;
+   align-self: center;
+}
+
+.faq-section{
+  color:white;
+}
+
+
+
